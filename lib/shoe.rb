@@ -8,7 +8,7 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-    show.condition = "new"learn spec/02_shoe_spec.rb
+    Shoe.condition = "new"
   end
   
 end
